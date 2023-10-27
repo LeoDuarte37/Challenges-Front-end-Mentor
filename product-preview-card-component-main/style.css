@@ -118,12 +118,10 @@ picture img {
 
     .card {
         grid-template-columns: 1fr 1fr;
+        width: 750px;
     }
 
-    .content h1 {
-        margin-right: 1rem;
-        font-size: 2.5;
-    }
+    .card .description { margin: 2rem; }
 
     .content p {
         text-align: left;
